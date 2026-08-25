@@ -53,8 +53,8 @@ print(c)
     > where = ["src"]  
 
 4. 在vscode终端中安装包  
-   ① 如果项目有自己的conda环境，如omai-dev，先在终端中激活该环境：`conda activate omai-dev`。**因为项目的python环境跟终端的可能不一样**
-   ② 将终端的目录切换到项目根目录，如`cd E:\OpenMechanicalAI`
-   ③ 安装包：`python -m pip install -e .`
+   ① 如果项目有自己的conda环境，如omai-dev，先在终端中激活该环境：`conda activate omai-dev`。**因为项目的python环境跟终端的可能不一样**  
+   ② 将终端的目录切换到项目根目录，如`cd E:\OpenMechanicalAI`   
+   ③ 安装包：`python -m pip install -e .`  
 5. 使用函数
    此时，可以直接在任意目录中的py文件内使用`from openmechanicalai import calculate_output_speed`这样的方式调用函数
