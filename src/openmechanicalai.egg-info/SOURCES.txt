@@ -1,0 +1,8 @@
+README.md
+pyproject.toml
+src/openmechanicalai/__init__.py
+src/openmechanicalai/mechanical_calculator.py
+src/openmechanicalai.egg-info/PKG-INFO
+src/openmechanicalai.egg-info/SOURCES.txt
+src/openmechanicalai.egg-info/dependency_links.txt
+src/openmechanicalai.egg-info/top_level.txt
