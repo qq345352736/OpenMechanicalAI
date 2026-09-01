@@ -418,9 +418,9 @@ print(A.shape)
 ## 十二、这就是你熟悉的矩阵
 
 例如：
-```
+
 $$ M= \begin{bmatrix} m_{11}&m_{12}\\ m_{21}&m_{22} \end{bmatrix} $$
-```
+
 在Python里：
 ```
 M = np.array([
@@ -474,9 +474,9 @@ print(C)
 ## 十四、一个机械工程例子
 
 假设：
-```
+
 $$ F=Kx $$
-```
+
 其中：
 ```
 K = 刚度矩阵
@@ -632,9 +632,9 @@ speed_kmh = np.array([
 ① 转换成 m/s
 
 公式：
-```
+
 $$ v_{m/s}=\frac{v_{km/h}}{3.6} $$
-```
+
 ② 计算平均速度
 
 使用：
@@ -691,9 +691,9 @@ speed_kmh = np.array([
 speed_mps = speed_kmh / 3.6
 ```
 然后：
-```
+
 $$ E=\frac12mv^2 $$
-```
+
 代码：
 ```
 energy = 0.5 * mass * speed_mps ** 2
@@ -709,9 +709,9 @@ energy = 0.5 * mass * speed_mps ** 2
 speed_mps ** 2
 ```
 就是：
-```
+
 $$ v^2 $$
-```
+
 然后：
 ```
 print(energy)
