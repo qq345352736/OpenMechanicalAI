@@ -1,5 +1,6 @@
 import numpy as np
 import matplotlib.pyplot as plt
+# import pandas as pd
 
 time = np.array([
     0.0,
@@ -10,6 +11,8 @@ time = np.array([
     0.5
 ])
 
+yaw_rate2 = np.sin(time * 2 * np.pi) * 0.1 + 0.05
+
 yaw_rate = np.array([
     0.05,
     0.08,
@@ -19,7 +22,7 @@ yaw_rate = np.array([
     0.10
 ])
 
-plt.plot(time, yaw_rate)
+plt.plot(time, yaw_rate2)
 
 plt.xlabel("Time (s)")
 plt.ylabel("Yaw Rate (rad/s)")
